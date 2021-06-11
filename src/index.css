@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Muli", sans-serif;
+}
+
+.navbar {
+  background-color:beige;
+  position:-webkit-sticky;
+  position:sticky;
+  top: 0;
+}
+
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color:white;
+  position:-webkit-sticky;
+  position:sticky;
+  top: 0;
+
+}
+
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+
+}
+
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.navbar a:hover {
+  color: #3498db !important;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+
+  .menu_active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}
+
+/* ==========================================================================
+#Main Landing Section
+========================================================================== */
+
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+
+#header .brand-name {
+  color: #3498db;
+}
+
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+
+#header .btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+.header-img {
+  text-align: right;
+}
+
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* ////////Contact ////////////
+ */
+
+.contact_div {
+  width: 100%;
+  height: 75vh;
+}
+
+/* /// footer///////////////////// */
+
+footer p {
+  padding: 0;
+  margin: 0;
+  background-color:beige;
+  font-weight: bold;
+}
+/* responsive code */
+
+@media (max-width: 991px) {
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+
+  #header .header-img {
+    text-align: center;
+  }
+  #header .header-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #header {
+    margin-top: 20px;
+  }
+  #header h1 {
+    font-size: 28px;
+  }
+  #header h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  #header .header-img img {
+    width: 70%;
+  }
+}
+
+.simple{
+  margin-top:55px;
+  text-align: center;
+}
+
+.skill{
+  margin-top:35px;
+  font-weight: bold;
+}
+
+.edu{
+  margin-top:23px;
+  font-weight: bold;
+}
+#a1{
+  width:80%;
+}
+
+#a2{
+  width:80%;
+  background-color:yellow;
+}
+
+#a3{
+  width:55%;
+  background-color:red;
+}
+
+#a4{
+  width:90%;
+  background-color:chocolate;
+}
+
+#a5{
+  width:70%;
+  background-color:crimson;
+}
+
+#a6{
+  width:80%;
+  background-color:chartreuse;
+}
+
+#a7{
+  width:65%;
+  background-color:coral;
+}
+
+#a8{
+  width:75%;
+  background-color:darkgreen;
+}
+
+#a9{
+  width:85%;
+  background-color:darkorchid;
+}
+
+#a10{
+  width:70%;
+  background-color:hotpink;
+}
+
+#progress{
+  margin-top:30px;
+  margin-left: 40px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin:20px;
+  border-radius: 50%;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow:lightskyblue;
+}
+
+h4{
+  margin-top:30px;
+}
+
+.about{
+  text-align: center;
+  background-color:bisque;
+}
+
+.quote{
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.name{
+  font-weight: bold;
+  text-align: right;
+  margin-right: 80px;
+}
+
+#all{
+  background-color:burlywood;
+}
+
+.contactCircles {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+
+  
+}
+.contactCircles li {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #1f2235;
+  margin: 0 10px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+}
+.contactCircles li:hover {
+  background: #ff4a57;
+}
