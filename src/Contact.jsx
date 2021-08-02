@@ -8,6 +8,7 @@ import {
 
 import {toast} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { motion } from 'framer-motion';
 toast.configure();
 
 
@@ -41,7 +42,7 @@ const Contact = () => {
   return (
     <>
       <div className="my-5">
-        <h1 className="text-center"> Contact Me </h1>
+        <motion.h1 className="text-center" initial={{y:-250}} animate={{y:-10}} transition={{delay:0.5,type:"spring",stiffness:120}}> Contact Me </motion.h1>
       </div>
       <div className="container contact_div">
         <div className="row">
@@ -104,11 +105,11 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <div class="col-12">
+              <motion.div class="col-12" initial={{x:'-100vw'}} animate={{x:0}}>
                 <button class="btn btn-outline-primary" type="submit">
                   Submit form
                 </button>
-              </div>
+              </motion.div>
             </form>
           </div>
         </div>
