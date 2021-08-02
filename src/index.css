@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Zen+Tokyo+Zoo&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Muli", sans-serif;
+  background-color: black;
 }
 
+
+
 .navbar {
-  background-color:beige;
   position:-webkit-sticky;
   position:sticky;
   top: 0;
@@ -16,7 +20,7 @@
 
 .navbar-brand {
   font-size: 1.9rem !important;
-  color:white;
+  color:red;
   position:-webkit-sticky;
   position:sticky;
   top: 0;
@@ -26,7 +30,10 @@
 .navbar a {
   font-size: 1.3rem;
   text-transform: capitalize;
-
+  color:#fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Zen Tokyo Zoo', cursive;
+  
 }
 
 .menu_active {
@@ -36,6 +43,14 @@
 
 .navbar a:hover {
   color: #3498db !important;
+}
+
+.navbar-toggler{
+  background-color: #fff !important;
+}
+
+.navbar-toggler-icon{
+  background-color: #fff !important;
 }
 
 @media (max-width: 991px) {
@@ -63,11 +78,11 @@
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
-  color: black;
+  color: lightcoral;
 }
 
 #header .brand-name {
-  color: #3498db;
+  color: #c2db34;
 }
 
 #header h2 {
@@ -175,12 +190,23 @@ footer p {
 .skill{
   margin-top:35px;
   font-weight: bold;
+  color:darkorange;
 }
 
 .edu{
   margin-top:23px;
   font-weight: bold;
+  color:darkorange;
 }
+
+.mylogo{
+  width:17rem;
+}
+
+.container h3{
+  color:khaki;
+}
+
 #a1{
   width:80%;
 }
@@ -206,7 +232,7 @@ footer p {
 }
 
 #a6{
-  width:80%;
+  width:50%;
   background-color:chartreuse;
 }
 
@@ -228,6 +254,16 @@ footer p {
 #a10{
   width:70%;
   background-color:hotpink;
+}
+
+#a11{
+  width:60%;
+  background-color:darkgoldenrod;
+}
+
+#a12{
+  width:55%;
+  background-color:darkred;
 }
 
 #progress{
@@ -276,9 +312,19 @@ h4{
   margin-top:30px;
 }
 
-.about{
+.about h2{
   text-align: center;
-  background-color:bisque;
+  color:#007bb5;
+}
+.about h3{
+  text-align: left;
+  margin-left:3rem;
+  margin-top:2rem;
+  color:burlywood;
+}
+.about button{
+  margin-left: 3rem;
+  margin-top:2rem;
 }
 
 .quote{
@@ -319,4 +365,10 @@ h4{
 }
 .contactCircles li:hover {
   background: #ff4a57;
+}
+.text-center{
+  color:aquamarine;
+}
+#project{
+  color:white;
 }
